@@ -15,9 +15,9 @@ type: 'php:8.3'
 # application container. The 'source_path' specifies the subdirectory
 # from within the source that the mount should point at. 
 mounts:
-  'web/uploads':
+  'web/netflix-platform':
     source: local
-    source_path: uploads
+    source_path: netflix-platform
 
 # The size of the persistent disk of the application (in MB).
 disk: 256
